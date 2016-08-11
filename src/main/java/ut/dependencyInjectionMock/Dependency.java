@@ -1,6 +1,6 @@
-package ut.diMock;
+package ut.dependencyInjectionMock;
 
-public class DependencyClass {
+public class Dependency {
 	public String diService() {
 		return "Default_Value";
 	}

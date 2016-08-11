@@ -1,11 +1,11 @@
-package ut.diMock;
+package ut.dependencyInjectionMock;
 
-public class TargetClass {
+public class ClassUnderTest {
 
-	private DependencyClass dependency;
+	private Dependency dependency;
 
 	// constructor
-	TargetClass(DependencyClass dependency) {
+	ClassUnderTest(Dependency dependency) {
 		this.dependency = dependency;
 	}
 
