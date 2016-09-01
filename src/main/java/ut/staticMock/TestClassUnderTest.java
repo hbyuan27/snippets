@@ -8,7 +8,7 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({ ClassUnderTest.class, ClassDependency.class })
+@PrepareForTest(ClassDependency.class)
 public class TestClassUnderTest {
 
 	@Test
